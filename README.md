@@ -22,4 +22,4 @@ process < name > {
 ```
 nextflow run /opt/hlatyping/main.nf -profile conda--input ${INPUT_DIR}/${STRING_TO_GLOB_FASTQs} --output_dir ${OUTPUT_PATH} -work-dir ${WORKDIR_PATH}
 ```
-Notes: ${WORKDIR_PATH} and ${OUTPUT_PATH} should be different directories to prevent causing ICA to copy intermediate files and cause UI issues. The CWL of the tool is provided [here](https://github.com/keng/nextflow_test/blob/master/hlatyping/hlatyping.cwl)
+Notes: ${WORKDIR_PATH} and ${OUTPUT_PATH} should be different directories to prevent causing ICA to copy intermediate files and cause UI issues. The CWL of the tool is provided [here](https://github.com/keng404/nextflow_test/blob/master/hlatyping/hlatyping.cwl)
