@@ -1,4 +1,4 @@
-- Used nextflow pipeline [hlatyping](https://github.com/nf-core/hlatyping)
+- Used Nextflow pipeline [hlatyping](https://github.com/nf-core/hlatyping)
 - [Docker image](https://github.com/keng404/nextflow_test/blob/master/Dockerfile) you base your nextflow-based tool would need nextflow to run the pipeline and have the binaries of interest installed. Many nextflow pipelines have a conda profile to install all binaries of interest with a single line of code.
 - Main thing is to check out each process defined in nextflow scripts ( e.g. usually files with '.nf' extension) and make sure the parameter **publishDir** is defined. This will allow ICA to collect the results of any process of interest. For Example:
 ```bash
